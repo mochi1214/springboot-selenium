@@ -41,7 +41,7 @@ public class GoogleSearchTest {
 
             // 等待數秒以模擬人類操作（不推薦 Thread.sleep，但用於簡單示範）
             Thread.sleep(2000);
-            
+
             System.out.println("Search Result Page Title: " + driver.getTitle());
 
         } catch (Exception e) {
